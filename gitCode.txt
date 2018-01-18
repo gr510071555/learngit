@@ -1,0 +1,22 @@
+//创建版本库
+1、mkdir xx
+2、cd xx
+3、pwd //显示当前目录
+
+//变成git仓库
+git init
+
+//添加文件到管理库
+1、git add
+2、git commit -m '本次提交的说明'
+
+
+//查看文件状态指令
+1、git status //查看文件当前状态
+2、git diff   //查看文件做了什么修改
+
+
+//版本回退
+1、git log --pretty=oneline  //查看提交历史记录，显示最近到最远的提交日志，以便确定回退到哪个版本
+2、git reset --hard HEAD^  //HEAD 表示当前版本，HEAD^回退到上一个版本，HEAD^^回退到上上个版本，回退到上100个版本 HEAD~100
+3、git reflog   //查看命令历史，以便确定回到未来哪个版本
