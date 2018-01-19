@@ -35,3 +35,7 @@ git push origin master  //之后提交
 
 //克隆仓库
 git clone
+
+//创建分支
+git checkout -b //创建并切换分支
+git branch    //查看当前分支
