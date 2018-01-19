@@ -20,3 +20,7 @@ git init
 1、git log --pretty=oneline  //查看提交历史记录，显示最近到最远的提交日志，以便确定回退到哪个版本
 2、git reset --hard HEAD^  //HEAD 表示当前版本，HEAD^回退到上一个版本，HEAD^^回退到上上个版本，回退到上100个版本 HEAD~100
 3、git reflog   //查看命令历史，以便确定回到未来哪个版本
+
+//撤销修改
+git checkout -- file //丢弃工作区的修改
+git reset HEAD file  //把暂存区的修改撤销掉
