@@ -46,6 +46,7 @@ git merge --no-ff  //用普通模式合并，合并后的历史有分支，可�
 
 //删除分支
 git branch -d //删除分支
+git branch -D //强行删除分支
 
 //查看分支合并图
 git log --graph
