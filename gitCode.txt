@@ -50,4 +50,9 @@ git branch -d //删除分支
 //查看分支合并图
 git log --graph
 
+//储存工作现场
+git stash  //储存工作现场
+git stash pop //恢复工作现场同时删除stash内容
+git statsh apply //恢复工作现场，但不删除stash内容
+
 
