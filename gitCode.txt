@@ -56,4 +56,8 @@ git stash  //储存工作现场
 git stash pop //恢复工作现场同时删除stash内容
 git statsh apply //恢复工作现场，但不删除stash内容
 
+//查看远程库信息
+git remote
+git remote -v //显示更详细的远程信息
+
 
