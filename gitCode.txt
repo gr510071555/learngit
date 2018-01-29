@@ -69,3 +69,9 @@ git branch --set-upstream branch-name origin/branch-name  //建立本地分支�
 git tag <name> //添加一个新标签
 git tag  //查看所有标签
 
+//操作标签
+git push origin <tagName>  //推送一个本地标签到远程
+git push origin --tags  //推送全部未推送过的本地标签
+git tag -d <tagname>  //删除一个本地标签
+git push origin :refs/tags/<tagname> 可以删除一个远程标签
+
